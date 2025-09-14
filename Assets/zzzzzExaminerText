@@ -1,0 +1,35 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+
+public class BrightnessController : MonoBehaviour
+{
+    // Reference to the brightness slider UI element
+    public Slider BrightnessSlider;
+
+    // Start function - called once at game start
+    void Start()
+    {
+        // Find the brightness slider in the scene and store its reference
+        BrightnessSlider = GameObject.Find("BrightnessSlider").GetComponent<Slider>();
+
+        // Check if the slider was found
+        if (BrightnessSlider == null)
+        {
+            Debug.LogError("BrightnessSlider not found"); // Log an error if the slider is missing
+            return; // Exit the function if the slider is not available
+        }
+
+        // Add an event listener to the slider for value changes
+        BrightnessSlider.onValueChanged.AddListener(ChangeBrightness);
+    }
+
+    // ChangeBrightness function - called when the slider value changes
+    public void ChangeBrightness(float value)
+    {
+        // Store the new brightness value in player preferences (so its saved globally)
+        PlayerPrefs.SetFloat("Brightness", value);
+        Debug.Log("Brightness set to " + value); // Log the new brightness value
+    }
+}

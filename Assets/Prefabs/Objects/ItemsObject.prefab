@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &173721907073552771
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 564541013746623870}
+  - component: {fileID: 7072473219879878552}
+  m_Layer: 0
+  m_Name: ItemsObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &564541013746623870
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 173721907073552771}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 44.89453, y: -90.79489, z: 5.2106376}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7072473219879878552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 173721907073552771}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de096d538eb5d67409f2fd95e9fe5219, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HealthPotion: {fileID: 4985455247712773753, guid: 7c73e586633dbaa459f3a0dbfba61088, type: 3}
+  DamagePotion: {fileID: 1291257695116292026, guid: 5942ccbf872ba6849a19e02e5c2b6e99, type: 3}
+  SpeedPotion: {fileID: 7735487044909790647, guid: f1b46c3513dde6c4e86a06838ab1f7d9, type: 3}
+  FireRatePotion: {fileID: 4049715082825759936, guid: 08324d9d4dbdc1445b633dd240a45187, type: 3}
+  ProjectileSpeedPotion: {fileID: 4294279410707041010, guid: c5e99978be11f0d48a1560fc73083c5f, type: 3}
+  ProjectileSizePotion: {fileID: 1982096260713056360, guid: f974461947333554f849e408743fdc61, type: 3}
+  ProjectileDamagePotion: {fileID: 3842360764565828911, guid: c0f80f7874963d9479091ac5f6aad866, type: 3}

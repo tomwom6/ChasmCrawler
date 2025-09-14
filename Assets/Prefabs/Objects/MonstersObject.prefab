@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8664076794437561016
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5930922132096209061}
+  - component: {fileID: 7306043030817866579}
+  m_Layer: 0
+  m_Name: MonstersObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5930922132096209061
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8664076794437561016}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -530.21857, y: -264.05792, z: 3.5480652}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7306043030817866579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8664076794437561016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf1022e75c678b1469327e2665f41311, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Monster1: {fileID: 8555691341169194032, guid: 7132a66787c7ecc499d4a0aea6aed6c3, type: 3}
+  Projectile: {fileID: 2543884476599359226, guid: da28bd2de63bad34786789d3d3444460, type: 3}
+  RangedMonster: {fileID: 434200350478085004, guid: da8c4fad87e996e48b96484a978fb1d0, type: 3}
+  RangedMonsterHoming: {fileID: 2879723759509251064, guid: 4deedb4d32a679641be338cd02e1aaa5, type: 3}
+  ProjectileHoming: {fileID: 5320129108610275877, guid: d24508d4b595b39438dc54090e70d56d, type: 3}
+  PlayerProjectile: {fileID: 7424552718760534063, guid: 195230b51f2913240b9712cc3ba2cc4a, type: 3}
